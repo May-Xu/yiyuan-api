@@ -1,0 +1,18 @@
+<view wx:if="{{canIUse}}">
+  <text decode="true">\n</text>
+  <view class='header'>
+      <image src='https://7875-xu-03a266-1258909907.tcb.qcloud.la/uploadfileimg/%E4%BA%94%E6%9C%88%E5%A4%A9logo.jpg?sign=cf3c6db555f22d69e566d28b6625608d&t=1570539583'></image>
+  </view>
+  <view class='title'>隐形的纪念</view>
+  <view class="get">需要获取您的</view>
+  <view class="get">公开信息以继续</view>
+  <view class='content'>
+      <view style="color: #9d9d9d;">该程序将获得以下授权</view>
+      <text>- 获得你的公开信息(昵称，头像等)</text>
+  </view>
+  <button class="bottom" type="button" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+    授权获取信息
+  </button>
+</view>
+
+<view wx:else>请升级微信版本</view>

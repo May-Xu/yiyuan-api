@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "优优谜语",
+  "navigationBarBackgroundColor": "#EE82EE",
+  "backgroundColor": "#EE82EE",
+  "enablePullDownRefresh": false
+}

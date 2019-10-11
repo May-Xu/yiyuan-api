@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/humor/index",
+    "pages/joke/index",
+    "pages/story/index",
+    "pages/humor/details/index",
+    "pages/rebot/index",
+    "pages/story/list/index",
+    "pages/story/detail/index",
+    "pages/details/index",
+    "pages/authorize/authorize"
+  ],
+  "window": {
+    "backgroundColor": "#00AAAA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00AAAA",
+    "navigationBarTitleText": "小故事",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-picker": "/miniprogram_npm/vant-weapp/picker/index",
+    "van-panel": "/miniprogram_npm/vant-weapp/panel/index",
+    "van-button": "/miniprogram_npm/vant-weapp/button/index",
+    "van-row": "/miniprogram_npm/vant-weapp/row/index",
+    "van-col": "/miniprogram_npm/vant-weapp/col/index",
+    "van-notice-bar": "/miniprogram_npm/vant-weapp/notice-bar/index",
+    "van-loading": "/miniprogram_npm/vant-weapp/loading/index",
+    "van-dialog": "/miniprogram_npm/vant-weapp/dialog/index",
+    "van-progress": "/miniprogram_npm/vant-weapp/progress/index",
+    "van-radio": "/miniprogram_npm/vant-weapp/radio/index",
+    "van-radio-group": "/miniprogram_npm/vant-weapp/radio-group/index",
+    "van-notify": "/miniprogram_npm/vant-weapp/notify/index",
+    "van-collapse": "/miniprogram_npm/vant-weapp/collapse/index",
+    "van-collapse-item": "/miniprogram_npm/vant-weapp/collapse-item/index",
+    "van-swipe-cell": "/miniprogram_npm/vant-weapp/swipe-cell/index",
+    "van-cell": "/miniprogram_npm/vant-weapp/cell/index",
+    "van-cell-group": "/miniprogram_npm/vant-weapp/cell-group/index",
+    "van-switch-cell": "/miniprogram_npm/vant-weapp/switch-cell/index",
+    "van-datetime-picker": "/miniprogram_npm/vant-weapp/datetime-picker/index",
+    "van-field": "/miniprogram_npm/vant-weapp/field/index",
+    "van-steps": "/miniprogram_npm/vant-weapp/steps/index",
+    "van-transition": "/miniprogram_npm/vant-weapp/transition/index",
+    "van-toast": "/miniprogram_npm/vant-weapp/toast/index",
+    "van-tag": "/miniprogram_npm/vant-weapp/tag/index"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00AA88",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/joke/index",
+        "text": "笑一笑",
+        "iconPath": "images/joke1.png",
+        "selectedIconPath": "images/joke.png"
+      },
+      {
+        "pagePath": "pages/rebot/index",
+        "text": "聊一聊",
+        "iconPath": "images/humor1.png",
+        "selectedIconPath": "images/humor.png"
+      },
+      {
+        "pagePath": "pages/story/index",
+        "text": "看一看",
+        "iconPath": "images/story1.png",
+        "selectedIconPath": "images/story.png"
+      },
+      {
+        "pagePath": "pages/humor/index",
+        "text": "猜一猜",
+        "iconPath": "images/guess1.png",
+        "selectedIconPath": "images/guess.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug":true
+}

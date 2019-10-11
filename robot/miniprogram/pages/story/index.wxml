@@ -1,0 +1,25 @@
+<!--
+<view style="height:100%;">
+  <view wx:for="{{articleList}}" wx:key="">
+    <text decode="true">\n</text>
+    <view bindtap="toDetailsTap" data-classifyid='{{item.classifyId}}'>
+      <view class="contaner">
+        <text style="font-size:20px;">{{item.classify}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+-->
+
+<view class="main">
+  <!-- 选择部分 -->
+  <view class="info ">
+    <view wx:for="{{articleList}}" wx:key="">
+        <view class="practice" bindtap="toDetailsTap" data-classifyid='{{item.classifyId}}'>
+          <text >
+          {{item.classify}}
+          </text>
+        </view>
+    </view>
+  </view>
+</view>

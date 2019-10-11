@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "优优笑笑",
+  "navigationBarBackgroundColor": "#CD5C5C",
+  "backgroundColor": "#CD5C5C",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 400
+}

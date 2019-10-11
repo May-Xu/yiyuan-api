@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "故事列表",
+  "navigationBarBackgroundColor": "#009FCC",
+  "backgroundColor": "#009FCC",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 300
+}

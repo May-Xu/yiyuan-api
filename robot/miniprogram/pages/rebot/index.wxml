@@ -1,0 +1,27 @@
+<view class="page">
+    <!--聊天框-->
+    <scroll-view class="talk" scroll-y="true" scroll-top="{{scrollTop}}" scroll-with-animation="true">
+        <!--可滚动区域-->
+        <!--一个话框-->
+        <view class="talk-box" wx:for="{{talk}}" wx:key="idx">
+            <image class="head {{item.isBot? 'head-bot':'head-user'}}"
+                   src="{{item.isBot? '../../images/ashin.png':userHead}}"></image>
+            <view class="sentence {{item.isBot? 'sentence-bot':'sentence-user'}}">
+                {{item.sentence}}
+                <view></view>
+            </view>
+        </view>
+        <view class="talk-box-extend"></view>
+    </scroll-view>
+    <!--发送框-->
+    <view class="send">
+        <!--文字框-->
+        <view class="send-text">
+            <view class="send-text-box">
+                <input type="text" placeholder="请输入文字" bindinput="bindKeyInput" value="{{inputMsg}}"/>
+            </view>
+            <image  bindtap="clearMsgTap" src="../../images/icon_close.png" mode="scaleToFill"></image>
+        </view>
+        <button class="send-btn" bindtap="sendMsgTap" disabled="{{isSendMsgBtnDisabled}}">发送</button>
+    </view>
+</view>

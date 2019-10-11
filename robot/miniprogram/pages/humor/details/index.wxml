@@ -1,0 +1,43 @@
+<!--
+<view wx:for="{{articleList}}" wx:key="">
+  <view bindtap="toDetailsTap" data-name='{{item.name}}' data-id='{{item.id}}'>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+-->
+<form bindsubmit="up_img">
+  <view class="container">
+      <view class="biankuang">
+        <view style="margin-left:10px;margin-right:10px;align-items:center;">
+          <text style="font-size:17px;">{{articleList[index-1].title}}</text>
+        </view>
+        <view class="container1 container-gray">
+          <view class="group">
+            <view class="group-body">
+              <view class="input-list">
+                <view class="input-item">
+                  <view class="input-item-content">
+                    <input type="text" focus="true" value='{{contact}}' maxlength='13' placeholder="输入答案" bindblur='bindcontact' data-daan="{{articleList[index-1].answer}}"></input>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <text decode="true">&nbsp;</text>
+      </view>
+    <view style="margin:0 0 15px 0;"></view>
+    <view class="anniu">
+      <button class="tijiao" plain="true" type="primary" data-daan="{{articleList[index-1].answer}}" bindtap="look">答案</button>
+      <button class="chongzhi" form-type="submit" plain="true" type="warn" data-daan="{{articleList[index-1].answer}}">确定</button>
+    </view>
+  </view>
+  <block wx:if="{{!hide}}">
+    <view class="body">
+      <image class="img" src="/images/good.png"></image>
+    </view>
+    <view class="head">
+      <text class="text1">恭喜你！全部答完了！</text>
+    </view>
+  </block>
+</form>

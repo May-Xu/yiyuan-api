@@ -1,0 +1,101 @@
+/*
+.container {
+  background-color: #F2f2f2;
+  min-height: 100%;
+  display: block;
+}
+.Courier-container{
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap:wrap;
+  box-sizing: content-box;
+  padding: 24rpx;
+  background-color: #F2f2f2;
+}
+.Courier-box{
+  width: 339rpx;
+  height: 472rpx;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+  border-radius:5px;
+}
+.Courier-box .img-box{
+  width: 339rpx;
+  height: 339rpx;
+  overflow: hidden;
+}
+.Courier-box .img-box image{
+   width: 339rpx;
+   height: 339rpx;
+}
+.Courier-box .Courier-title{
+  width: 280rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 26rpx;
+  padding: 24rpx 0 0rpx 0;
+  color:#000;
+  margin-left: 24rpx;
+}
+.Courier-box .Courier-price{
+  width: 280rpx;
+  overflow: hidden;
+  font-size: 24rpx;
+  padding: 24rpx 0;
+  color:#0066FF;
+  margin-left: 24rpx;
+}
+.suspension{
+  position: fixed;
+  width:60px;
+  height:60px;
+  bottom: 40px;
+  right: 30px;
+}
+
+.text1{
+  text-align: center;
+}
+.img1{
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img2{
+  width: .00px;
+  height: 320px;
+}*/
+
+page{height: 100%}
+
+.waterfall{
+  margin: 30rpx 30rpx 0 30rpx;
+  box-sizing: border-box;
+}
+.waterfall .view {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+.waterfall .view view{
+  margin-bottom: 15rpx;
+}
+.waterfall text{
+  width: 100%;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 68rpx;
+  line-height: 68rpx;
+  display: inline-block;
+  font-size: 24rpx;
+  word-break:break-all;
+  color: #646464;
+}
+image{
+  width: 100%;
+  height: 0;
+}

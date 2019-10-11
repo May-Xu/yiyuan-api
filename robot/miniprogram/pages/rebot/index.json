@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "阿信",
+  "navigationBarBackgroundColor": "#00C0FF",
+  "backgroundColor": "#00C0FF",
+  "enablePullDownRefresh": false
+}

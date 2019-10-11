@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="biankuang" style="margin-bottom:20px;">
+    <view style="margin-left:10px;margin-right:10px;margin-top:5px;">
+      <view style="text-align: center;">{{articleList.title}}</view>
+      <text class="text">{{articleList.content}}</text>
+    </view>
+  </view>
+</view>

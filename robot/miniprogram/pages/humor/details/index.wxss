@@ -1,0 +1,200 @@
+page{
+  background: #eeeeee
+}
+.container{
+  height: 100%;
+  width: 100%;
+  position: absolute
+}
+.biankuang{
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border:1rpx solid #eeeeee;
+  height:auto;
+  margin-top: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.anniu{
+  display: flex;
+  margin-top: 100px;
+}
+.chongzhi{
+  border-radius: 5px;
+  width: 30%;
+}
+.tijiao{
+  border-radius: 5px;
+  width: 30%;
+}
+
+.container1 {
+	flex: 1;
+  display: flex;
+  flex-direction: column;
+ 	box-sizing: border-box;
+}
+.container-gray{
+	background: #f9f9f9;
+}
+.group{
+	display: block;
+	width: 100%;
+}
+.group-header{
+	line-height: 70rpx;
+	display: flex;
+	padding: 0 20rpx;
+	background: #f9f9f9;
+}
+.group-body{
+	background: #fff;
+}
+.group-body .input-list{
+	margin: 0;
+	border: none;
+}
+.input-list{
+	padding: 0 20rpx;
+	margin: 20rpx 0;
+	background: #fff;
+	border-top: 1rpx solid #ddd;
+	border-bottom: 1rpx solid #ddd;
+}
+.input-list .input-item{
+	padding: 20rpx;
+	line-height: 2;
+	display: flex;
+	font-size: 17px;
+	border-top: 1rpx solid #e8e8e8;
+}
+.input-item.input-item-full .input-item-content{
+	width: 100%;
+
+}
+.input-list .input-item:first-child{
+	border-top: 0;
+}
+.input-item.input-item-adaption .input-item-label{
+	width: auto;
+	margin-right: 20rpx;
+}
+.input-item-label{
+	display: block;
+	width: 8em;
+	color: #666;
+}
+
+/****************************************************/
+/* pages/play/play.wxss */
+/* 题号部分 */
+.main{
+    padding: 20rpx;
+    background: #f1f1f1;
+    
+}
+/* 得分栏部分 */
+.score_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rpx;
+    width: 100%;
+    font-family: '黑体';
+    background: #fff;
+    
+}
+.score_info .score{
+    width: 40%;
+   
+    /* background: skyblue; */
+}
+.score_info .time{
+    width: 40%;
+    /* background: skyblue; */
+    /* right: 500rpx; */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 48rpx;
+    margin-top: 100rpx;
+    
+}
+.title text{
+  width: 300rpx;
+ background: white;
+ text-align: center;
+ border-radius: 10rpx;
+}
+/* 问题部分 */
+.question{
+    margin-top: 20rpx;
+
+}
+   /* 题  目 */
+.question .question_name{
+    display: flex;
+    
+    font-size: 42rpx;
+    margin-top: 10rpx;
+}
+ .question_item1, .question_item2, .question_item3, .question_item4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 34rpx;
+    background: #77fd4e;
+    border-radius: 20rpx;
+    line-height: 72rpx;
+    margin-top: 20rpx;
+    padding: 10rpx;
+}
+/* 下一题 */
+.next{
+    background: #1bd0bd;
+    border-radius: 50rpx;
+    width: 300rpx;
+    height: 80rpx;
+    font-size: 32rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 100rpx;
+}
+
+.css-shadow{
+  -moz-box-shadow:2px 2px 10px #2db7f5; 
+  -webkit-box-shadow:2px 2px 10px #2db7f5; 
+  box-shadow:2px 2px 10px #2db7f5;
+}
+/* 答案解析 */
+.analysis{
+    line-height: 60rpx;
+    width: 100%;
+    height: 60rpx;
+    margin-top: 100rpx;
+    background: #fff;
+    border-radius: 10rpx;
+    padding: 20rpx;
+}
+.head{
+  margin-top: 50px;
+  text-align: center;
+}
+.text1{
+  font-size: 18px;
+}
+.butt{
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.body{
+  text-align:center;
+}
+.img{
+  height: 150px;
+  width: 150px;
+}

@@ -1,0 +1,12 @@
+/**app.wxss**/
+@import 'weui.wxss';
+@import "/miniprogram_npm/vant-weapp/common/index.wxss";
+@import "./common/css/animate.wxss";
+page,
+.page{
+  height: 100%;
+}
+.container {
+  height: 100%;
+  box-sizing: border-box;
+}

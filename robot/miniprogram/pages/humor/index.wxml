@@ -1,0 +1,24 @@
+<!--
+<view style="height:100%;">
+  <view wx:for="{{articleList}}" wx:key="">
+    <text decode="true">\n</text>
+    <view bindtap="toDetailsTap" data-name='{{item.name}}' data-id='{{item.id}}'>
+      <view class="contaner">
+        <text style="font-size:20px;">{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+-->
+
+<!--pages/begin/begin.wxml-->
+<view class="main">
+  <!-- 选择部分 -->
+  <view class="info ">
+        <view class="practice" bindtap="toDetailsTap" data-name='{{item.name}}' data-id='{{item.id}}'>
+            <text >
+            开始猜谜语
+            </text>
+        </view>
+  </view>
+</view>

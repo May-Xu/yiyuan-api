@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "优优猜猜",
+  "navigationBarBackgroundColor": "#D87093",
+  "backgroundColor": "#D87093",
+  "enablePullDownRefresh": false
+}

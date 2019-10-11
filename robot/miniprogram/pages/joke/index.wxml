@@ -1,0 +1,24 @@
+<!--
+<view wx:for="{{articleList}}" wx:key="">
+  <view class="text1">{{item.title}}</view>
+  <view class="img1" bindtap="previewImage" data-path="{{item.img}}">
+    <image class="img2" mode="aspectFill" src="{{'https://servicewechat.com/'+item.img}}"></image>
+  </view>
+</view>
+-->
+
+<view class="waterfall">
+  <view class="view" style="margin-right:20rpx">
+    <view wx:for="{{Arr1}}" wx:key="imgid">
+      <image src="{{item.img}}" mode="widthFix" bindtap="previewImage" data-path="{{item.img}}"></image>
+      <text>{{ item.title }}</text>
+    </view>
+  </view>
+
+  <view class="view">
+    <view wx:for="{{Arr2}}" wx:key="imgid">
+      <image src="{{item.img}}" mode="widthFix" bindtap="previewImage" data-path="{{item.img}}"></image>
+      <text>{{ item.title }}</text>
+    </view>
+  </view>
+</view>
